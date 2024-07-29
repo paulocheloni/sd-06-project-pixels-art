@@ -1,0 +1,58 @@
+repo_name: paulocheloni/sd-06-project-pixels-art
+report_id: 418ac45b76ff1d2755349ad759b84738
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-29T14:28:31+00:00'
+requested_by: renatosousafilho
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-pixels-art/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2020-07-23 19:38:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-pixels-art
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-pixels-art/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: LucasCFerraz
+  last_updated_on: 2020-07-23 19:49:51.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-pixels-art/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2020-07-23 19:38:46.000000000 Z
